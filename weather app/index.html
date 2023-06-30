@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://images.sftcdn.net/images/t_app-icon-s/p/20ad6900-f131-4ebe-92e4-aeb155ddf348/1193061656/weather-qfg-logo"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hava Durumu Uygulaması</h1>
+      <label for="inp" class="inp">
+        <input type="text" id="cityInput" placeholder="Şehir Adını Girin" />
+        <span class="focus-bg"></span>
+      </label>
+      <button class="btn" onclick="getWeather()">Hava Durumunu Getir</button>
+      <div id="weatherResult"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
